@@ -1,10 +1,10 @@
 /* Minecraft-like site styles (fan template) */
 :root{
-  --bg-1:#0b2a17;
-  --bg-2:#07160f;
-  --accent:#39d353;
-  --muted:#9fb8a8;
-  --panel:#111;
+  --bg-1:#050006;
+  --bg-2:#0b0014;
+  --accent:#9b59ff;
+  --muted:#bfa8ff;
+  --panel:#0c0018;
   --container:1100px;
 }
 
@@ -13,8 +13,8 @@ html,body{height:100%}
 body{
   margin:0;
   font-family: 'Press Start 2P', monospace;
-  background: radial-gradient(circle at 10% 10%, rgba(57,211,83,0.04), transparent 10%), linear-gradient(180deg,var(--bg-1),var(--bg-2));
-  color:#eaf6ea;
+  background: radial-gradient(circle at 10% 10%, rgba(155,89,255,0.04), transparent 10%), linear-gradient(180deg,var(--bg-1),var(--bg-2));
+  color:#efe9ff;
   -webkit-font-smoothing:antialiased;
 }
 .container{max-width:var(--container);margin:0 auto;padding:0 20px}
@@ -32,7 +32,7 @@ body{
 .hero-cta{display:flex;gap:12px;justify-content:center;margin-top:18px}
 
 .btn{display:inline-block;padding:12px 18px;border-radius:6px;text-decoration:none;font-size:12px}
-.btn.primary{background:linear-gradient(180deg,#5be57b,var(--accent));color:#07210f;box-shadow:0 6px 0 rgba(0,0,0,0.35),inset 0 -4px 0 rgba(0,0,0,0.06)}
+.btn.primary{background:linear-gradient(180deg,#c9a5ff,var(--accent));color:#160016;box-shadow:0 6px 0 rgba(0,0,0,0.35),inset 0 -4px 0 rgba(0,0,0,0.06)}
 .btn.ghost{background:transparent;border:2px solid rgba(255,255,255,0.08);color:var(--muted)}
 
 .features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:48px 0}
@@ -55,6 +55,6 @@ body{
 .hero-title, .logo{text-shadow:2px 2px 0 rgba(0,0,0,0.6),4px 4px 0 rgba(0,0,0,0.12)}
 
 /* Accessibility: focus states */
-.btn:focus{outline:3px solid rgba(57,211,83,0.25);outline-offset:2px}
+.btn:focus{outline:3px solid rgba(155,89,255,0.25);outline-offset:2px}
 
 /* End of styles */
